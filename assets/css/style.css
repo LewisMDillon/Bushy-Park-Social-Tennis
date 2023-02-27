@@ -37,6 +37,11 @@ body {
   padding: 1em;
 }
 
+.top-nav span{
+  margin-left: 8px;
+  font-size: 24px;
+}
+
 .top-nav a:hover {
   color: #da48a4;
 }
