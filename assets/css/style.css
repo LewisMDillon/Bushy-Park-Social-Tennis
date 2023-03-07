@@ -3,6 +3,7 @@
 body {
   padding: 0;
   margin: 0;
+  color: #3a3a3a;
 }
 
 a {
@@ -247,7 +248,7 @@ body {
 
 #schedule-table th,
 #schedule-table td {
-    padding: 12px 2px;
+    padding: 12px 5px;
 }
 
 #schedule-table thead tr {
@@ -266,4 +267,29 @@ body {
 
 #schedule-table tbody tr:last-of-type {
   border-bottom: 2px solid #da48a4;
+}
+
+footer {
+  height: 150px;
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  padding: 0;
+  justify-content:center;
+  justify-content: space-between;
+  
+}
+
+footer ul i {
+  font-size: 160%;
+  margin:10px;
+  padding: 10px;
+  color: #45677b;
+}
+
+footer ul i:hover {
+  color: #da48a4;
 }
