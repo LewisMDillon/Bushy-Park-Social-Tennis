@@ -226,3 +226,7 @@ body {
   background-color: #cb376a;
   border: 2px solid #e788c4;
 }
+
+#about-us p {
+  margin: 1.25rem;
+}
