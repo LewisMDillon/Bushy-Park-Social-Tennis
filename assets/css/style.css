@@ -230,3 +230,40 @@ body {
 #about-us p {
   margin: 1.25rem;
 }
+
+#schedule-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+#schedule-table {
+  border-collapse: collapse;
+  margin: 20px;
+  font-size: 0.9em;
+  min-width: 320px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#schedule-table th,
+#schedule-table td {
+    padding: 12px 2px;
+}
+
+#schedule-table thead tr {
+  background-color: #da48a4;
+  color: whitesmoke;
+  text-align: left;
+}
+
+#schedule-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+#schedule-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+#schedule-table tbody tr:last-of-type {
+  border-bottom: 2px solid #da48a4;
+}
