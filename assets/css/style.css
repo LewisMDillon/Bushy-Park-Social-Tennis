@@ -27,6 +27,8 @@ body {
   box-sizing: border-box;
 }
 
+/* nav bar */
+
 .top-nav {
   display: flex;
   flex-direction: row;
@@ -341,15 +343,34 @@ footer ul i:hover {
 
 /* styling for form.html */
 
+@media (min-width: 400px) {
+  .form-page {
+    background-image: url(/assets/images/sunrise-at-net.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+}
+
+@media (min-width: 1250px) {
+  .form-page {
+    background-image: url(/assets/images/man-serving-cropped.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+}
+
 .form-page {
-  background-image: url(/assets/images/social-high5.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background-color: #45677b;
 }
 
 #form-container {
-  height: 90%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -366,6 +387,7 @@ footer ul i:hover {
   max-width: 480px;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding: 10px;
   border-top: 5px solid #da48a4;
 }
 
@@ -381,8 +403,8 @@ footer ul i:hover {
 .title {
   display: block;
   font-family: "Raleway", sans-serif;
-  margin: 10px 80px 5px;
-  width: 300px;
+  margin: 10px 20px 5px;
+  width: 275px;
 }
 
 .pageTitle {
