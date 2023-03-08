@@ -208,7 +208,7 @@ body {
 }
 
 .hero-title {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -240,7 +240,7 @@ body {
 #about-us {
   width: 100%;
   height: 100%;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 #about-us-content {
@@ -258,7 +258,7 @@ body {
 #schedule-and-prices {
   width: 100%;
   height: 100%;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 #schedule-container {
@@ -302,7 +302,7 @@ body {
 #latest-news {
   width: 100%;
   height: 100%;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 #latest-news p {
@@ -343,7 +343,7 @@ footer ul i:hover {
 
 /* styling for form.html */
 
-@media (min-width: 400px) {
+/* @media (min-width: 400px) {
   .form-page {
     background-image: url(/assets/images/sunrise-at-net.jpg);
     background-repeat: no-repeat;
@@ -363,14 +363,14 @@ footer ul i:hover {
     background-position: center;
   }
 
-}
+} */
 
 .form-page {
   background-color: #45677b;
 }
 
 #form-container {
-  height: 100%;
+  height: 108%;
   display: flex;
   justify-content: center;
   align-items: center;
