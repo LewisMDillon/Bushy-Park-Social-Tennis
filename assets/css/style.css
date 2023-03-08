@@ -163,6 +163,8 @@ body {
   }
 }
 
+/* hero image */
+
 .hero {
   position: relative;
   width: 100%;
@@ -341,7 +343,7 @@ footer ul i:hover {
 }
 
 #form-container {
-  height: 100%;
+  height: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -352,34 +354,29 @@ footer ul i:hover {
 }
 
 .form {
-  background: #fff;
-  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   max-width: 480px;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
   padding-top: 5px;
   padding-bottom: 5px;
-  /* left: 0; */
-  /* right: 0; */
-  /* position: absolute; */
-  border-top: 5px solid #45677b;
-
+  border-top: 5px solid #da48a4;
 }
 
-::-webkit-input-placeholder {
-  font-size: 1.3em;
+.form p {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+#level-radio {
+  margin-left: 35%;
 }
 
 .title {
   display: block;
   font-family: "Raleway", sans-serif;
-  margin: 10px auto 5px;
+  margin: 10px 80px 5px;
   width: 300px;
-}
-
-.termsConditions {
-  margin: 0 auto 5px 80px;
 }
 
 .pageTitle {
@@ -388,12 +385,12 @@ footer ul i:hover {
 }
 
 .secondaryTitle {
-  color: grey;
+  color: #3a3a3a;
 }
 
 .name {
   background-color: #ebebeb;
-  color: white;
+  color: #3a3a3a;
 }
 
 .name:hover {
@@ -410,24 +407,45 @@ footer ul i:hover {
   transition: ease 0.1s;
 }
 
-.message {
+.tel {
   background-color: #ebebeb;
-  overflow: hidden;
-  height: 10rem;
+  color: #3a3a3a;
 }
 
-.message:hover {
+.tel:hover {
   border-bottom: 5px solid #da48a4;
   transition: ease 0.1s;
 }
 
+#birthdate-container {
+  padding-top: 3px;
+}
+
+.birthdate {
+  background-color: #ebebeb;
+  color: #3a3a3a;
+}
+
+.birthdate:hover {
+  border-bottom: 5px solid #da48a4;
+  transition: ease 0.1s;
+}
+
+#radio-container {
+  padding-top: 3px;
+}
+
 .formEntry {
   display: block;
-  margin: 30px auto;
+  margin: 10px auto;
   min-width: 300px;
   padding: 10px;
   border-radius: 2px;
   border: none;
+}
+
+#submit-container {
+  padding-top: 20px;
 }
 
 .submit {

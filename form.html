@@ -44,19 +44,35 @@
         </nav>
 
     </header>
-        <!-- form -->
-        <div id="form-container">
-            <form class="form">
-                <div class="pageTitle title">Join Us!</div>
-                <div class="secondaryTitle title">Please fill this form to sign up.</div>
-                <input type="text" class="name formEntry" placeholder="Name" />
-                <input type="email" class="email formEntry" placeholder="Email" />
-                <textarea class="message formEntry" placeholder="Message"></textarea>
-                <input type="checkbox" class="termsConditions" value="Term">
-                <label style="color: grey" for="terms"> I Accept the <span style="color: #da48a4">Terms of Use</span> &
-                    <span style="color: #da48a4">Privacy Policy</span>.</label><br>
+    <!-- form -->
+    <div id="form-container">
+        <form class="form">
+            <div class="pageTitle title">Join In!</div>
+            <div class="secondaryTitle title">Please fill in this form to sign up.</div>
+            <input type="text" class="name formEntry" placeholder="Name" />
+            <input type="email" class="email formEntry" placeholder="Email" />
+            <input type="tel" class="tel formEntry" placeholder="Telephone Number" />
+            
+            <div id="birthdate-container">
+                <p>Please enter your Date of Birth</p>
+                <input type="date" class="birthdate formEntry"/>
+            </div>
+            
+            <div id="radio-container">
+                <p>Please select your tennis level</p>
+                <div id="level-radio">
+                    <input type="radio" id="beginner" name="level" value="beginner">
+                    <label for="html">Beginner</label><br>
+                    <input type="radio" id="intermediate" name="level" value="intermediate">
+                    <label for="html">Intermediate</label><br>
+                    <input type="radio" id="advanced" name="level" value="advanced">
+                    <label for="html">Advanced</label><br>
+                </div>
+            </div>
+            <div id="submit-container">
                 <button class="submit formEntry" onclick="thanks()">Submit</button>
-            </form>
-        </div>
+            </div>
+        </form>
+    </div>
 
 </body>
