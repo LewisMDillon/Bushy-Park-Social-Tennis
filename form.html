@@ -14,7 +14,8 @@
 
     <title>Bushy Park Social Tennis</title>
 </head>
-<body>
+
+<body class="form-page">
     <!-- header & nav bar -->
     <header>
         <nav class="top-nav">
@@ -43,3 +44,19 @@
         </nav>
 
     </header>
+        <!-- form -->
+        <div id="form-container">
+            <form class="form">
+                <div class="pageTitle title">Join Us!</div>
+                <div class="secondaryTitle title">Please fill this form to sign up.</div>
+                <input type="text" class="name formEntry" placeholder="Name" />
+                <input type="email" class="email formEntry" placeholder="Email" />
+                <textarea class="message formEntry" placeholder="Message"></textarea>
+                <input type="checkbox" class="termsConditions" value="Term">
+                <label style="color: grey" for="terms"> I Accept the <span style="color: #da48a4">Terms of Use</span> &
+                    <span style="color: #da48a4">Privacy Policy</span>.</label><br>
+                <button class="submit formEntry" onclick="thanks()">Submit</button>
+            </form>
+        </div>
+
+</body>
