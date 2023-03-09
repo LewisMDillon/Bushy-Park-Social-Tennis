@@ -44,24 +44,25 @@
         </nav>
 
     </header>
+
     <!-- form -->
     <div id="form-container">
-        <form class="form">
+        <form class="form"method="post" action="https://formdump.codeinstitute.net/">
             <div class="pageTitle title">Join In!</div>
             <div class="secondaryTitle title">Please fill in this form to sign up.</div>
-            <input type="text" class="name formEntry" placeholder="Name" />
-            <input type="email" class="email formEntry" placeholder="Email" />
-            <input type="tel" class="tel formEntry" placeholder="Telephone Number" />
-            
+            <input type="text" class="name formEntry" id="fullName" name="name" placeholder="Name" required/>
+            <input type="email" class="email formEntry" id="emailAddress" name="email" placeholder="Email" required/>
+            <input type="tel" class="tel formEntry" id="phoneNumber" name="phone" placeholder="Telephone Number" required/>
+
             <div id="birthdate-container">
                 <p>Please enter your Date of Birth</p>
-                <input type="date" class="birthdate formEntry"/>
+                <input type="date" class="birthdate formEntry" id="birthDate" name="dateOfBirth" required/>
             </div>
-            
+
             <div id="radio-container">
                 <p>Please select your tennis level</p>
                 <div id="level-radio">
-                    <input type="radio" id="beginner" name="level" value="beginner">
+                    <input type="radio" id="beginner" name="level" value="beginner" required>
                     <label for="html">Beginner</label><br>
                     <input type="radio" id="intermediate" name="level" value="intermediate">
                     <label for="html">Intermediate</label><br>
