@@ -399,6 +399,7 @@ footer ul {
   padding: 25px;
   justify-content: center;
   justify-content: space-around;
+  background-color: #45677b;
 
 }
 
@@ -406,7 +407,7 @@ footer ul i {
   font-size: 160%;
   margin: 10px;
   padding: 10px;
-  color: #45677b;
+  color: whitesmoke;
 }
 
 footer ul i:hover {
