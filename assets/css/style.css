@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h2 {
   vertical-align: center;
   text-align: center;
@@ -263,6 +267,12 @@ body {
 
 /* photo styling */
 
+.photo-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 @media only screen and (max-width: 768px) {
   .photo-container {
     display: flex;
@@ -280,11 +290,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
   }
   #about-us-text {
     max-width: 50vw;
   }
+}
+
+hr.gradient {
+  height: 3px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(
+    90deg,
+    rgba(69,103,123, 1) 0%,
+ 
+    rgba(218, 72, 164, 1) 100%
+  );
 }
 
 /* schedule section */
@@ -356,7 +377,7 @@ body {
     margin: 0;
     padding: 5px 30px 20px 25px;
     list-style: none;
-    background-image: url("/assets/images/icon-tennis-ball.png");
+    background-image: url("assets/images/icon-tennis-ball.png");
     background-repeat: no-repeat;
     background-position: left, center;
     background-position: 0% 36%;
