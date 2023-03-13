@@ -393,6 +393,9 @@ hr.gradient {
 
 footer {
   height: 15vh;
+  background-color: #45677b;
+  display: flex;
+  margin-top: 50px;
 }
 
 footer ul {
@@ -400,9 +403,10 @@ footer ul {
   text-align: center;
   display: flex;
   padding: 20px;
+  width: 100%;
   justify-content: center;
-  justify-content: space-around;
   background-color: #45677b;
+  align-content: center;
 
 }
 
