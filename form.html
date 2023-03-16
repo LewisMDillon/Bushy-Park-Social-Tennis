@@ -8,9 +8,9 @@
     <meta name="description" content="Social Tennis Club in Bushy Park, Dublin 6W, Ireland">
     <meta name="keywords" content="tennis, social, bushy park, dublin, ireland">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&display=swap">
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0">
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0&display=swap">
     <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
 
     <title>Bushy Park Social Tennis</title>
@@ -51,13 +51,14 @@
         <form class="form" action="confirmation.html">
             <div class="pageTitle title">Join In!</div>
             <div class="secondaryTitle title">Please fill in this form to sign up.</div>
-            <input type="text" class="name formEntry" id="name" name="name" placeholder="Name" required>
-            <input type="email" class="email formEntry" id="email" name="email" placeholder="Email" required>
-            <input type="tel" class="tel formEntry" id="phone" name="phone" placeholder="Telephone Number" required>
+            <input type="text" class="name formEntry" id="name" name="name" placeholder="Name" aria-label="Name" required>
+            <input type="email" class="email formEntry" id="email" name="email" placeholder="Email" aria-label="Email" required>
+            <input type="tel" class="tel formEntry" id="phone" name="phone" placeholder="Telephone Number" aria-label="Phone Number" required>
+
 
             <div id="birthdate-container">
                 <p>Please enter your Date of Birth</p>
-                <input type="date" class="birthdate formEntry" id="birthDate" name="dateOfBirth" required>
+                <input type="date" class="birthdate formEntry" id="birthDate" name="dateOfBirth" aria-label="Date of Birth" required>
             </div>
 
             <div id="radio-container">
