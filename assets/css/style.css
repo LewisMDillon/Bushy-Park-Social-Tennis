@@ -341,6 +341,13 @@ hr.gradient {
       rgba(218, 72, 164, 1) 100%);
 }
 
+hr.block {
+  height: 5px;
+  border: none;
+  margin: 0;
+  background-color: #da48a4;
+}
+
 /* schedule section */
 
 #schedule-and-prices h2 {
