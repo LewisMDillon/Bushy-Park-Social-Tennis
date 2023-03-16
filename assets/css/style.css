@@ -261,12 +261,9 @@ section {
 }
 
 /* about us section */
-
 #about-us {
   width: 100%;
-  /* min-height: 100vh; */
 }
-
 
 #about-us p {
   margin: 0 20px 50px 20px;
@@ -275,69 +272,26 @@ section {
   font-size: 1.1em;
 }
 
-@media only screen and (min-width: 1000px) {
-
+#about-us-text {
+  max-width: 100vw;
 }
 
-/* photo styling */
-
-.photo-container {
+#about-us-content {
   display: flex;
+  align-items: center;
   justify-content: center;
+  padding: 25px;
   flex-direction: column;
 }
 
-.photo-container img {
-  width: 100%;
-  /* padding: 5px; */
-}
-
-
-
 @media (min-width: 1000px) {
-  #about-us-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 25px;
-  }
 
-  #about-us-text {
-    max-width: 60vw;
-  }
-
-
-#about-us p {
-  font-size: 1.3em;
-  /* line-height: 1.3em; */
+  #about-us p {
+    font-size: 1.3em;
+    max-width: 65vw;
   }
 
 }
-
-
-@media (max-width: 1000px) {
-
-  .about-us-content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .photo-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .photo-container img {
-    padding-bottom: 0px;
-  }
-
-  #about-us-text {
-    max-width: 100vw;
-  }
-}
-
 
 /* styling for horizontal lines   */
 
@@ -597,12 +551,13 @@ footer ul i:hover {
 .submit {
   width: 200px;
   color: white;
-  background-color: #da48a4;
+  background-color: #c7288c;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .submit:hover {
-  background-color: #cb376a;
+  background-color: #9d1f6e;
 
 }
 
