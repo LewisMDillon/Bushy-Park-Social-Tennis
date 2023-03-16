@@ -20,12 +20,10 @@ main {
 }
 
 h2 {
-  vertical-align: center;
   text-align: center;
 }
 
 h3 {
-  vertical-align: center;
   text-align: center;
 }
 
@@ -261,7 +259,7 @@ section {
 
 
 #about-us p {
-  margin: 1.25rem;
+  margin: 0 20px 50px 20px;
   color: #3a3a3a;
   max-width: 100%;
   font-size: 1.1em;
@@ -300,11 +298,8 @@ section {
 
 
 #about-us p {
-  font-size: 1.75vw;
+  font-size: 1.3em;
   /* line-height: 1.3em; */
-  }
-
-  .photo-container img {
   }
 
 }
@@ -348,9 +343,14 @@ hr.gradient {
 
 /* schedule section */
 
+#schedule-and-prices h2 {
+  color: whitesmoke;
+}
+
 #schedule-and-prices {
   width: 100%;
   min-height: 50vh;
+  background-color: #45677b;
 }
 
 #schedule-container {
@@ -368,7 +368,7 @@ hr.gradient {
   width: 90%;
   min-width: 300px;
   max-width: 700px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 #schedule-table th,
@@ -387,7 +387,11 @@ hr.gradient {
 }
 
 #schedule-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
+  background-color: #fff;
+}
+
+#schedule-table tbody tr:nth-of-type(odd) {
+  background-color: #f3f3f3ef;
 }
 
 #schedule-table tbody tr:last-of-type {
@@ -468,6 +472,7 @@ footer ul i:hover {
   justify-content: center;
   align-items: center;
   padding-top: 100px;
+  padding-bottom: 20px;
 }
 
 #title-Tag-Line {
@@ -476,7 +481,7 @@ footer ul i:hover {
 
 .form {
   background: rgba(255, 255, 255, 1);
-  box-shadow: 0 30px 35px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   max-width: 480px;
   min-width: 320px;
