@@ -203,6 +203,7 @@ You can fork this repository by using the following steps:
 | [Code Institute](https://codeinstitute.net/ie/) | footer | Love Running walkhrough project |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Alvaro Trigo](https://alvarotrigo.com/blog/hamburger-menu-css/) | nav bar | collapsible hamburger menu |
+| [W3Schools](https://www.w3schools.com/howto/howto_css_four_columns.asp) | image gallery | responsive image layout
 | [Mike Tricking](https://miketricking.github.io/bootstrap-image-hover/) | image gallery | image hover effects
 | [Stack Overflow](https://stackoverflow.com/questions/62672640/css-list-bullet-custom-image-size) | latest news list | custom bullet point styling
 

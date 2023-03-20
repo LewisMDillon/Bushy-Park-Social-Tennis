@@ -44,11 +44,10 @@ img {
 
 img.img-responsive {
   height: auto;
- 
+
 }
 
 /* nav bar */
-
 .top-nav {
   display: flex;
   flex-direction: row;
@@ -141,6 +140,7 @@ section {
   transform: rotate(-405deg);
 }
 
+/* media query for collapsing hamburger menu */
 @media (max-width: 700px) {
   .menu-button-container {
     display: flex;
@@ -157,6 +157,7 @@ section {
     align-items: center;
   }
 
+  /* transition animation for hamburger */
   #menu-toggle~.menu li {
     height: 0;
     margin: 0;
@@ -194,7 +195,6 @@ section {
 }
 
 /* hero image */
-
 .hero {
   position: relative;
   width: 100%;
@@ -284,8 +284,8 @@ section {
   flex-direction: column;
 }
 
+/* styling for larger screns */
 @media (min-width: 1000px) {
-
   #about-us p {
     font-size: 1.3em;
     max-width: 65vw;
@@ -293,8 +293,7 @@ section {
 
 }
 
-/* styling for horizontal lines   */
-
+/* styling for horizontal lines  */
 hr.gradient {
   height: 5px;
   border: none;
@@ -312,8 +311,8 @@ hr.block {
   background-color: #da48a4;
 }
 
-/* schedule section */
 
+/* schedule section */
 #schedule-and-prices h2 {
   color: whitesmoke;
 }
@@ -357,6 +356,7 @@ hr.block {
   border-bottom: 1px solid #dddddd;
 }
 
+/* styles every second row of cells */
 #schedule-table tbody tr:nth-of-type(even) {
   background-color: #fff;
 }
@@ -370,7 +370,6 @@ hr.block {
 }
 
 /* latest news section */
-
 #latest-news {
   width: 100%;
 }
@@ -385,6 +384,7 @@ hr.block {
   margin: 20px;
 }
 
+/* uses background image as bullet point */
 #latest-news ul li {
   margin: 0;
   padding: 5px 30px 20px 25px;
@@ -394,13 +394,12 @@ hr.block {
   background-position: left, center;
   background-position: 0% 36%;
   background-size: 10px;
- 
+
 }
 
 
 
 /* footer */
-
 footer {
   height: 15vh;
   background-color: #45677b;
@@ -434,7 +433,6 @@ footer ul i:hover {
 
 
 /* styling for form */
-
 .form-page {
   background-color: #45677b;
 }
@@ -468,6 +466,7 @@ footer ul i:hover {
   font-size: 0.75rem;
 }
 
+/* indents radio buttons and text so all seems centered */
 #level-radio {
   margin-left: 32%;
 }
@@ -561,6 +560,7 @@ footer ul i:hover {
 
 }
 
+/* styling for confirmation page */
 #confirmation-page {
   background-color: #45677b;
   color: whitesmoke;
@@ -574,7 +574,6 @@ footer ul i:hover {
 
 
 /* styling for gallery */
-
 #image-row {
   display: flex;
   flex-wrap: wrap;
@@ -585,11 +584,9 @@ footer ul i:hover {
 .column {
   flex: 25%;
   max-width: 25%;
-  /* padding: 0 4px; */
 }
 
 .column img {
-  /* margin-top: 8px; */
   vertical-align: middle;
   width: 100%;
 }
@@ -611,6 +608,8 @@ footer ul i:hover {
 }
 
 /* styling for image hover effect */
+
+/* background image set behind main images, acts as overlay on hover */
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -622,6 +621,7 @@ footer ul i:hover {
   background: linear-gradient(45deg, #45677b 0%, #da48a4 50%);
 }
 
+/* image movement effect on hover */
 .hovereffect .overlay {
   width: 100%;
   height: 100%;
@@ -639,7 +639,7 @@ footer ul i:hover {
   max-width: none;
   width: calc(100% + 60px);
   transition: opacity 0.35s, transform 0.45s;
-  transform: translate3d(-40px,0,0);
+  transform: translate3d(-40px, 0, 0);
 }
 
 .hovereffect h2 {
@@ -663,28 +663,30 @@ footer ul i:hover {
   opacity: 0;
   filter: alpha(opacity=0);
   transition: opacity 0.35s, transform 0.45s;
-  transform: translate3d(-20px,0,0);
+  transform: translate3d(-20px, 0, 0);
 }
 
-.hovereffect a, .hovereffect p {
+.hovereffect a,
+.hovereffect p {
   color: #FFF;
   opacity: 0;
   filter: alpha(opacity=0);
   transition: opacity 0.35s, transform 0.45s;
-  transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px, 0, 0);
 }
 
 .hovereffect:hover img {
   opacity: 0.45;
   filter: alpha(opacity=60);
-  transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
 }
 
 .hovereffect:hover .overlay:before,
-.hovereffect:hover a, .hovereffect:hover p {
+.hovereffect:hover a,
+.hovereffect:hover p {
   opacity: 1;
   filter: alpha(opacity=100);
-  transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
 }
 
 #image-row p {
@@ -698,4 +700,3 @@ footer ul i:hover {
 #image-row p a {
   font-size: 1.1rem;
 }
-
