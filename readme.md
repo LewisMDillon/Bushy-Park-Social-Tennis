@@ -13,7 +13,7 @@ The site gives viewers a snapshot of Social Tennis via the Latest News section a
 
 The site was designed with clarity and simplicity in mind. The site attempts to deliver the salient information in a clear and accessible way, without clutter. 
 
-The navigation bar takes the user to all areas of the site and sticks at the top of the page while the user scrolls.
+The navigation bar takes the user to all areas of the site and sticks at the top of the page while the user scrolls so that any section of the site is accessible at any time.
 
 Smooth scroll behaviour was used to help to inform the user that scrolling of the site is possible and to give the user a better sense of the full layout of the site as they use the links in the navigation bar.
 

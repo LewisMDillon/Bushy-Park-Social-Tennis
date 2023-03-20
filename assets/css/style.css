@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+/* @import url(https://fonts.googleapis.com/css?family=Raleway); */
 
 body {
   padding: 0;
@@ -638,9 +638,7 @@ footer ul i:hover {
   position: relative;
   max-width: none;
   width: calc(100% + 60px);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
   transition: opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-40px,0,0);
   transform: translate3d(-40px,0,0);
 }
 
@@ -664,9 +662,7 @@ footer ul i:hover {
   content: '';
   opacity: 0;
   filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
   transition: opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-20px,0,0);
   transform: translate3d(-20px,0,0);
 }
 
@@ -674,16 +670,13 @@ footer ul i:hover {
   color: #FFF;
   opacity: 0;
   filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
   transition: opacity 0.35s, transform 0.45s;
-  -webkit-transform: translate3d(-10px,0,0);
   transform: translate3d(-10px,0,0);
 }
 
 .hovereffect:hover img {
   opacity: 0.45;
   filter: alpha(opacity=60);
-  -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
 
@@ -691,7 +684,6 @@ footer ul i:hover {
 .hovereffect:hover a, .hovereffect:hover p {
   opacity: 1;
   filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
 
