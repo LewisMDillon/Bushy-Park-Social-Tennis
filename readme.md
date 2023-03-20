@@ -103,7 +103,7 @@ This section also seeks to assuage any trepidation a user of the site may have a
 
     The images in this section give users a glimpse at what Social Tennis will look like, and the clientele that take part. Images were selected to represent a wide range of ages and levels of competition in order to demonstrate to potential signups that they will be welcome and among similar people at Social Tennis.
 
-    The images can be hovered over (or tapped on mobile/tablet) to see details of the photo, including names of the people in the photo and the date the photo was taken.
+    The images can be hovered over (or tapped on mobile/tablet) to see details of the photo, including names of the people in the photo and the date the photo was taken, as well as showing the attribution for the photographer and a link to their instagram page.
 
 ![screenshot](documentation/feature05.png)
 
