@@ -28,6 +28,14 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 | style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FLewisMDillon.github.io%2FBushy-Park-Social-Tennis) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors |
 
 
+### JavaScript
+
+I have used the recommended [JavaScript JSHint validatior](https://www.jshint.com) to validate my JavaScript file.
+
+| File | Screenshot | Notes |
+| --- | --- | --- |
+| script.js | ![jshint](documentation/js.png) | No errors/warnings |
+
 ## Browser Compatibility
 
 
