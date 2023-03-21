@@ -463,6 +463,12 @@ footer ul i:hover {
   border-top: 5px solid #da48a4;
 }
 
+@media screen and (min-width: 700px) {
+.form {
+min-width: 360px;
+  }
+}
+
 .form p {
   text-align: center;
   font-size: 0.75rem;
