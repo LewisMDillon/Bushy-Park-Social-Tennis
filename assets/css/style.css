@@ -245,6 +245,7 @@ section {
   margin-bottom: 5rem;
 }
 
+/* call to action button */
 .hero-button {
   background-color: #da48a4;
   color: whitesmoke;
@@ -296,16 +297,6 @@ section {
 }
 
 /* styling for horizontal lines  */
-hr.gradient {
-  height: 5px;
-  border: none;
-  margin: 0;
-  background: linear-gradient(90deg,
-      rgba(69, 103, 123, 1) 0%,
-
-      rgba(218, 72, 164, 1) 100%);
-}
-
 hr.block {
   height: 5px;
   border: none;
@@ -332,7 +323,7 @@ hr.block {
   padding: 30px 0 50px 0;
 }
 
-
+/* main schedule table */
 #schedule-table {
   border-collapse: collapse;
   margin: 20px;
@@ -447,9 +438,6 @@ footer ul i:hover {
   padding-bottom: 20px;
 }
 
-#title-Tag-Line {
-  font-size: 20px;
-}
 
 .form {
   background: rgba(255, 255, 255, 1);
@@ -463,6 +451,7 @@ footer ul i:hover {
   border-top: 5px solid #da48a4;
 }
 
+/* slightly wider form on bigger screens */
 @media screen and (min-width: 700px) {
 .form {
 min-width: 360px;
@@ -474,8 +463,9 @@ min-width: 360px;
   font-size: 0.75rem;
 }
 
-/* indents radio buttons and text so all seems centered */
+
 #level-radio {
+  /* indents radio buttons and text so all seems centered */
   margin-left: 31%;
   line-height: 0.75rem;
 }
@@ -660,16 +650,7 @@ min-width: 360px;
   transform: translate3d(-40px, 0, 0);
 }
 
-.hovereffect h2 {
-  text-transform: uppercase;
-  color: #fff;
-  position: relative;
-  font-size: 17px;
-  background-color: transparent;
-  padding: 15% 0 10px 0;
-  text-align: left;
-}
-
+/* white border that appears on image hover */
 .hovereffect .overlay:before {
   position: absolute;
   top: 20px;
