@@ -15,6 +15,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | --- | --- | --- | --- |
 | Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FLewisMDillon.github.io%2FBushy-Park-Social-Tennis%2Findex.html) | ![screenshot](documentation/html-validation-home.png) |  Pass: No Errors |
 | Form | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flewismdillon.github.io%2FBushy-Park-Social-Tennis%2Fform.html) | ![screenshot](documentation/html-validation-form.png) | Pass: No Errors |
+| Confirmation | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flewismdillon.github.io%2FBushy-Park-Social-Tennis%2Fconfirmation.html) | ![screenshot](documentation/html-validation-confirmation.png) | Pass: No Errors |
 
 
 ### CSS
