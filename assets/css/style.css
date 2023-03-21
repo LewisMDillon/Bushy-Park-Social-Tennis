@@ -126,18 +126,20 @@ section {
   margin-top: 8px;
 }
 
+/* transition animations for hamburger icon into X icon */
+/* first line shifts to half of X icon */
 #menu-toggle:checked+.menu-button-container .menu-button::before {
   margin-top: 0px;
-  transform: rotate(405deg);
+  transform: rotate(45deg);
 }
-
+/* middle line dissapears */
 #menu-toggle:checked+.menu-button-container .menu-button {
   background: rgba(255, 255, 255, 0);
 }
-
+/* third line shifs to other half of X icon */
 #menu-toggle:checked+.menu-button-container .menu-button::after {
   margin-top: 0px;
-  transform: rotate(-405deg);
+  transform: rotate(-45deg);
 }
 
 /* media query for collapsing hamburger menu */
@@ -157,7 +159,7 @@ section {
     align-items: center;
   }
 
-  /* transition animation for hamburger */
+  /* checkbox (hamburger) which causes the menu to slide down and up */
   #menu-toggle~.menu li {
     height: 0;
     margin: 0;
@@ -165,7 +167,7 @@ section {
     border: 0;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-
+/* checked state of the menu - menu items given a height and transition down */
   #menu-toggle:checked~.menu li {
     border: 1px solid #45677b;
     height: 3em;
@@ -173,6 +175,7 @@ section {
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
   }
 
+  /* styling for list items in the dropdown menu */
   .menu>li {
     display: flex;
     justify-content: center;
