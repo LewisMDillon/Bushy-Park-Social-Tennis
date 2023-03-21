@@ -404,7 +404,7 @@ hr.block {
 /* footer */
 footer {
   height: 15vh;
-  background-color: #45677b;
+  background-color: #3c596b;
   display: flex;
   margin-top: 0px;
 }
@@ -416,7 +416,7 @@ footer ul {
   padding: 0;
   width: 100%;
   justify-content: center;
-  background-color: #45677b;
+  background-color: #3c596b;
   flex-wrap: wrap;
   align-content: center;
 
@@ -430,13 +430,13 @@ footer ul i {
 }
 
 footer ul i:hover {
-  color: #da48a4;
+  color: #e787c4;
 }
 
 
 /* styling for form */
 .form-page {
-  background-color: #45677b;
+  background-color: #3c596b;
 }
 
 #form-container {
@@ -564,7 +564,7 @@ footer ul i:hover {
 
 /* styling for confirmation page */
 #confirmation-page {
-  background-color: #45677b;
+  background-color: #3c596b;
   color: whitesmoke;
   height: 100vh;
   text-align: center;
@@ -573,7 +573,17 @@ footer ul i:hover {
   justify-content: center;
 }
 
+#confirmation-page h3 {
+  margin: 15px;
+}
 
+#confirmation-page h3 a {
+  color: #e787c4;
+}
+
+#confirmation-page h3 a:hover{
+  color: #f0b2d9;
+}
 
 /* styling for gallery */
 #image-row {
