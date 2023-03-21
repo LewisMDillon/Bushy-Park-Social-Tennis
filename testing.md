@@ -60,7 +60,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | --- | --- | --- |
 | Mobile (Oneplus Nord 2 - Chrome) | ![screenshot](documentation/responsive-oneplus.png) | Works as expected |
 | Mobile (Chrome DevTools) | ![screenshot](documentation/responsive-mobile.png) | Works as expected |
-| Tablet (Apple iPad OS 14.6 - Chrome) | ![screenshot](documentation/responsive-ipad.PNG) | Works as expected |
+| Tablet (Apple iPad OS 14.6 - Chrome) | ![screenshot](documentation/responsive-ipad.png) | Works as expected |
 | Tablet (Chrome DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
 | Desktop | ![screenshot](documentation/responsive-desktop.png) | Works as expected |
 | XL Monitor | ![screenshot](documentation/responsive-xl.png) | Scaling starts to have minor issues |
