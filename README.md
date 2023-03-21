@@ -111,10 +111,15 @@ This section also seeks to assuage any trepidation a user of the site may have a
 
  This form provides new users with a simple way of signing up for Bushy Park Social Tennis. The form is on a separate page to keep the user's focus solely on the form, but retains the same styling as the rest of the site, so as not to feel divorced from the main sections of the site.
 
- The form asks for all the details required by Bushy Park Social Tennis, and requires the user to fill out all sections. On completion of the form, the user is presented with a simple confirmation page, again retaining the syling of the main site, and after a brief moment, returned to the main site to further explore.
+ The form asks for all the details required by Bushy Park Social Tennis, and requires the user to fill out all sections. 
     
 ![screenshot](documentation/feature06.png)
 
+- **Confirmation Page**
+
+This is a confirmation screen that is presented to the user upon completion of the Signup Form. This is a very clear indicator that the user has successfully completed the form and automatically redirects the user back to the home page after a brief window. The user can also use the provided link to navigate back to the homepage manually.
+    
+![screenshot](documentation/feature07.png)
 
 ### Future Features
 
