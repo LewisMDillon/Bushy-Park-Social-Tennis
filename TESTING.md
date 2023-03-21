@@ -31,7 +31,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 ### JavaScript
 
-I have used the recommended [JavaScript JSHint validatior](https://www.jshint.com) to validate my JavaScript file.
+I have used the recommended [JavaScript JSHint validator](https://www.jshint.com) to validate my JavaScript file.
 
 | File | Screenshot | Notes |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
 | Chrome | ![screenshot](documentation/browser-chrome.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browser-firefox.png) | Minor font display diffeerences |
+| Firefox | ![screenshot](documentation/browser-firefox.png) | Minor font display differences |
 | Edge | ![screenshot](documentation/browser-edge.png) | No smooth-scrolling |
 | Safari | ![screenshot](documentation/browser-safari.png) | Works as expected |
 | Brave | ![screenshot](documentation/browser-brave.png) | No smooth-scrolling |
@@ -88,7 +88,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 ## Bugs
 
 
-- HTML Accesibility Issue - radio buttons too close together
+- HTML Accessibility Issue - radio buttons too close together
 
     ![screenshot](documentation/bug01.png)
 
@@ -116,7 +116,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
     ![screenshot](documentation/bug05.png)
 
-    - To fix this, I removed the slash from the start of the image url.
+    - To fix this, I removed the slash from the start of the image URL.
 
 ### GitHub **Issues**
 
@@ -128,7 +128,7 @@ All previously closed/fixed bugs can be tracked [here](https://github.com/LewisM
 
 | Bug | Status |
 | --- | --- |
-| [HTML Accesibility Issue - radio buttons too close together](https://github.com/LewisMDillon/Bushy-Park-Social-Tennis/issues/1) | Closed |
+| [HTML Accessibility Issue - radio buttons too close together](https://github.com/LewisMDillon/Bushy-Park-Social-Tennis/issues/1) | Closed |
 | [CSS Accessibility Issue - image overlay text color not contrasting enough with background](https://github.com/LewisMDillon/Bushy-Park-Social-Tennis/issues/2) | Closed |
 | [CSS Accessibility Issue - icon hover color not contrasting enough with background](https://github.com/LewisMDillon/Bushy-Park-Social-Tennis/issues/3) | Closed |
 | [CSS - Sections overlapping one another](https://github.com/LewisMDillon/Bushy-Park-Social-Tennis/issues/4) | Closed |

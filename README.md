@@ -29,7 +29,7 @@ The site utilizes mainly neutral colors in textual and image elements with brigh
 
 Main colors were picked to be roughly "tennis-themed" with neutral blues and greens to blend with tennis court colors.
 
-Colour tools such as https://www.colorhexa.com/ & https://palettegenerator.com/ were used to analyze image color palletes and find contrasting standout colours as well as colors to blend and accent.
+Colour tools such as https://www.colorhexa.com/ & https://palettegenerator.com/ were used to analyze image color palettes and find contrasting standout colours as well as colors to blend and accent.
 
 
 - `#ffffff` used for primary text.
@@ -69,7 +69,7 @@ Google Fonts was also used for the material icon of the tennis racquet and ball 
 
 - **Landing Page**
 
-This is what the user sees on first arrival to the site. The hero image tells the user instantly what the site is about, along with the Bushy Park Social Tennis heading. Below this, the subheading gives a short description, further cementing the idenity of the site on first arrival.
+This is what the user sees on first arrival to the site. The hero image tells the user instantly what the site is about, along with the Bushy Park Social Tennis heading. Below this, the subheading gives a short description, further cementing the identity of the site on first arrival.
 
 The main focus on this page is the large striking "Join In!" button, giving the user an immediate call to action.
 
@@ -93,7 +93,7 @@ This section also seeks to assuage any trepidation a user of the site may have a
 
 - **Latest News**
 
-    This section provides users of the site with up to date information about Social Tennis. Returning users of this site willl find useful information here regarding future sessions. 
+    This section provides users of the site with up to date information about Social Tennis. Returning users of this site will find useful information here regarding future sessions. 
 
     This section also serves to provide new users with a way of seeing that Social Tennis is an active event which is currently operating. Up to date news items show new users that the site, and therefore the event are still taking place.
 
@@ -103,7 +103,7 @@ This section also seeks to assuage any trepidation a user of the site may have a
 
     The images in this section give users a glimpse at what Social Tennis will look like, and the clientele that take part. Images were selected to represent a wide range of ages and levels of competition in order to demonstrate to potential signups that they will be welcome and among similar people at Social Tennis.
 
-    The images can be hovered over (or tapped on mobile/tablet) to see details of the photo, including names of the people in the photo and the date the photo was taken, as well as showing the attribution for the photographer and a link to their instagram page.
+    The images can be hovered over (or tapped on mobile/tablet) to see details of the photo, including names of the people in the photo and the date the photo was taken, as well as showing the attribution for the photographer and a link to their Instagram page.
 
 ![screenshot](documentation/feature05.png)
 
@@ -140,7 +140,7 @@ This is a confirmation screen that is presented to the user upon completion of t
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) used to help generate the Markdown files.
-- [Google Fonts](https://fonts.google.com/) used for fonts on the site
+- [Google Fonts](https://fonts.google.com/) used for fonts on the site.
 - [Color Hexa](https://www.colorhexa.com/) used to generate contrasting and complementary colors 
 - [Palette Generator](https://palettegenerator.com/) used to generate color palettes based on image colors
 - [Web AIM](https://webaim.org/resources/contrastchecker/) used to check color contrast for accessibility purposes
@@ -205,7 +205,7 @@ You can fork this repository by using the following steps:
 | [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Codepen](https://codepen.io/shantedenise/pen/GYyxWV) | form.html | CSS floating contact form |
 | [Dev.to](https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l) | schedule table | Beautiful Tables with CSS |
-| [Code Institute](https://codeinstitute.net/ie/) | footer | Love Running walkhrough project |
+| [Code Institute](https://codeinstitute.net/ie/) | footer | Love Running walkthrough project |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Alvaro Trigo](https://alvarotrigo.com/blog/hamburger-menu-css/) | nav bar | collapsible hamburger menu |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_four_columns.asp) | image gallery | responsive image layout
@@ -231,5 +231,5 @@ You can fork this repository by using the following steps:
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
-- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self-doubt and imposter syndrome.
 - I would like to thank my partner Rachel, for believing in me, and allowing me to make this transition into software development.
