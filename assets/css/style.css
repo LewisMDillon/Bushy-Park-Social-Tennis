@@ -470,14 +470,14 @@ footer ul i:hover {
 
 /* indents radio buttons and text so all seems centered */
 #level-radio {
-  margin-left: 32%;
+  margin-left: 31%;
+  line-height: 0.75rem;
 }
 
 .title {
   display: block;
   font-family: "Raleway", sans-serif;
   margin: 10px 20px 5px;
-  /* width: 275px; */
 }
 
 .pageTitle {
