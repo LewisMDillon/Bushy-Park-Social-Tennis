@@ -128,7 +128,7 @@ This section also seeks to assuage any trepidation a user of the site may have a
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-
+- [JavaScript](https://www.javascript.com/) used for auto-closing the responsive burger menu.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
@@ -206,6 +206,7 @@ You can fork this repository by using the following steps:
 | [W3Schools](https://www.w3schools.com/howto/howto_css_four_columns.asp) | image gallery | responsive image layout
 | [Mike Tricking](https://miketricking.github.io/bootstrap-image-hover/) | image gallery | image hover effects
 | [Stack Overflow](https://stackoverflow.com/questions/62672640/css-list-bullet-custom-image-size) | latest news list | custom bullet point styling
+| My Mentor | help with the JavaScript | |
 
 ### Media
 
