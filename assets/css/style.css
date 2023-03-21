@@ -456,7 +456,7 @@ footer ul i:hover {
   box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   max-width: 480px;
-  min-width: 320px;
+  min-width: 310px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding: 10px;
@@ -477,7 +477,7 @@ footer ul i:hover {
   display: block;
   font-family: "Raleway", sans-serif;
   margin: 10px 20px 5px;
-  width: 275px;
+  /* width: 275px; */
 }
 
 .pageTitle {
@@ -539,7 +539,7 @@ footer ul i:hover {
 .formEntry {
   display: block;
   margin: 10px auto;
-  min-width: 300px;
+  min-width: 95%;
   padding: 10px;
   border-radius: 2px;
   border: none;
@@ -550,7 +550,7 @@ footer ul i:hover {
 }
 
 .submit {
-  width: 200px;
+  min-width: 95%;
   color: white;
   background-color: #c7288c;
   font-size: 20px;
