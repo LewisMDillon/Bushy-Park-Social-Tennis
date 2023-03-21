@@ -98,35 +98,35 @@ For JavaScript and Python applications, it's best to screenshot the errors to in
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
+- HTML Accesibility Issue - radio buttons too close together
 
     ![screenshot](documentation/bug01.png)
 
-    - To fix this, I _____________________.
+    - To fix this, I added an extra line break to the radio button list in the html code.
 
-- JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
+- CSS Accessibility Issue - image overlay text color not contrasting enough with background
 
     ![screenshot](documentation/bug02.png)
 
-    - To fix this, I _____________________.
+    - To fix this, I darkened the overlay gradient colors in style.css.
 
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
+- CSS Accessibility Issue - icon hover color not contrasting enough with background
 
     ![screenshot](documentation/bug03.png)
 
-    - To fix this, I _____________________.
+    - To fix this, I changed the color of both the icon and background in style.css
 
-- Django `TemplateDoesNotExist` at /appname/path appname/template_name.html
-
-    ![screenshot](documentation/bug04.png)
-
-    - To fix this, I _____________________.
-
-- Python `E501 line too long` (93 > 79 characters)
+- CSS - Sections overlapping one another.
 
     ![screenshot](documentation/bug04.png)
 
-    - To fix this, I _____________________.
+    - To fix this, I removed height attributes from sections in style.css
+
+- CSS - Images not showing on deployed site
+
+    ![screenshot](documentation/bug05.png)
+
+    - To fix this, I removed the slash from the start of the image url.
 
 ### GitHub **Issues**
 
