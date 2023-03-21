@@ -387,10 +387,7 @@ hr.block {
   background-position: left, center;
   background-position: 0% 36%;
   background-size: 10px;
-
 }
-
-
 
 /* footer */
 footer {
@@ -410,7 +407,6 @@ footer ul {
   background-color: #3c596b;
   flex-wrap: wrap;
   align-content: center;
-
 }
 
 footer ul i {
@@ -462,7 +458,6 @@ min-width: 360px;
   text-align: center;
   font-size: 0.75rem;
 }
-
 
 #level-radio {
   /* indents radio buttons and text so all seems centered */
@@ -614,7 +609,6 @@ min-width: 360px;
     max-width: 100%;
   }
 }
-
 /* styling for image hover effect */
 
 /* background image set behind main images, acts as overlay on hover */
